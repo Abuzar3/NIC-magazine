@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+<ImageView
+        android:id="@+id/np_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:contentDescription="TODO" />
+
+
+    <TextView
+        android:id="@+id/np_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/np_icon"
+        android:gravity="center_vertical"
+        android:text="Newspaper Name"
+        android:textSize="16sp"
+        style="@style/CodeFont" />
+
+    <TextView
+        android:id="@+id/np_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/np_title"
+        android:layout_toRightOf="@id/np_icon"
+        android:text="TextView"
+        android:textSize="10sp"
+        style="@style/CodeFont" />
+
+    <Button
+        android:id="@+id/np_subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/np_title"
+        android:text="subscribe" />
+
+</RelativeLayout>

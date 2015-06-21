@@ -1,0 +1,25 @@
+ lv.setOnItemLongClickListener(new OnItemLongClickListener() {
+               @Override
+                public  boolean   onItemLongClick(AdapterView<?> a, View v, int position, long id) {
+                    final int positionToRemove = position;
+                    final String nName = aradpt.getItem(positionToRemove);
+                    AlertDialog.Builder adb = new AlertDialog.Builder(mContext);
+                    adb.setTitle("Delete?");
+                    adb.setMessage("Are you sure you want to delete " + nName);
+
+                    adb.setNegativeButton("Cancel", null);
+                    adb.setPositiveButton("Ok", new AlertDialog.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            int checkedItems = lv.getSelectedItemPosition();
+                           // lv.removeViewAt(checkedItems);
+                           String todelete = aradpt.getItem(checkedItems);
+                            aradpt.remove(todelete);
+                           // aradpt.remove(nName);
+                           aradpt.notifyDataSetChanged();
+                        }
+                    });
+                    adb.show();
+                    return true;
+                }
+
+            });

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NIC Magazine</string>
+    <string name="title_section2">NIC at Facebook</string>
+    <string name="title_section3">News</string>
+    <string name="download_btn">Download</string>
+    <string name="open_btn">Open</string>
+    <string name="base_url">http://isd.gov.sd/mob/</string>
+    <string name="short_code">5556</string>
+    <string name="success_msg">subscribed to newsapp</string>
+    <string name="title_section1">Read </string>
+    <string name="btn_subscribe">Subscribed</string>
+    <string name="btn_un_subscribe">Subscribe</string>
+    <string name="subscription_info">Subscribed until </string>
+    <string name="un_sub_info">Not subscribed</string>
+    <string name="text_not_online">Internet service is not available Please activate data service and try again</string>
+    <string name="title_activity_my_pdfview">myPdfviewActivity</string>
+    <string name="btn_clear_history">Clear my Publication List</string>
+    <string name="confirm_clear">This procedure will wipe all the Downloaded Item ....  Are you sure?</string>
+    <string name="siteDown">The Application Server Is Down for Maintenance It will be up soon</string>
+
+    <string name="title_activity_fullscreen">About NIC</string>
+    <string name="dummy_button">Contact Us</string>
+    <string name="action_settings">About NIC</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This version is expired.  Please update the application from App market</string>
+    <string name="done">Done</string>
+    <string name="server_ip">isd.gov.sd</string>
+    <string name="title_section4">NIC Publiction</string>
+    <string name="title_section5">NIC Website</string>
+
+</resources>

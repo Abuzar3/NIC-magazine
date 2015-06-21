@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_url">http://isd.gov.sd/mob/</string>
+    <string name="download_btn">تنزيل</string>
+    <string name="open_btn">افتح</string>
+    <string name="server_ip">isd.gov.sd</string>
+    <string name="short_code">5556</string>
+    <string name="success_msg">اشتراك</string>
+    <string name="title_section2">صفحة المركز القومى للمعلومات</string>
+    <string name="title_section1">قراءة المنشورات</string>
+    <string name="btn_subscribe">تم الاشتراك</string>
+    <string name="btn_un_subscribe">اشتراك</string>
+    <string name="un_sub_info">Not subscribed</string>
+    <string name="subscription_info">Subscribed until</string>
+    <string name="text_not_online">خدمة الانرنت غير متوفرة رجاء تفعيل خدمة البينات واعادة المحاولة</string>
+    <string name="btn_clear_history">مسح قائمة المنشورات</string>
+    <string name="siteDown">مخدم التطبيق مغلق للصيانة سيعاود العمل بعد قليل</string>
+    <string name="confirm_clear">هذا الاجراء سيقوم بمسح كافة المنشورات المنزلة ... هل انت متاكد؟</string>
+    <string name="title_activity_fullscreen">حول المركز القومي للمعلومات</string>
+    <string name="action_settings">حول المركز القومى للمعلومات</string>
+    <string name="hello_blank_fragment">انتهت مدة صلاحية هذا الإصدار.يرجى تحديث التطبيق من سوق التطبيقات </string>
+    <string name="app_name">NIC Magazine</string>
+    <string name="title_section4">منشورات المركز</string>
+    <string name="title_section3">الاخبار</string>
+    <string name="title_section5">موقع المركز على الانترنت</string>
+    <string name="done">عودة</string>
+</resources>
